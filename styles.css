@@ -3,6 +3,8 @@
 .holder{
 	display:grid;
 	grid-template-columns:repeat(2,100px);
+	column-gap:4px;
+	row-gap:4px;
 /* 	grid-templates-rows:repeat(2,100px); */
 	
 }
@@ -10,7 +12,7 @@
 	width:100px;
 	height:100px;
 	background:green;
-	margin:5px;
+/* 	margin:5px; */
 	
 	
 }
